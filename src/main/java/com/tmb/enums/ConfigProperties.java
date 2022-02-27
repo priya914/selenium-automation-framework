@@ -1,0 +1,14 @@
+package com.tmb.enums;
+
+public enum ConfigProperties {
+
+    URL,
+    OVERRIDEREPORTS,
+    PASSEDSTEPSCREENSHOTS,
+    FAILEDSTEPSCREENSHOTS,
+    SKIPPEDSTEPSCREENSHOTS,
+    RETRYFAILEDTESTS,
+    SELENIUMGRIDURL,
+    RUNMODE,
+    BROWSER;
+}

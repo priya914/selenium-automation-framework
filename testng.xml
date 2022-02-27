@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.tmb.listeners.ListenerClass"></listener>
+        <listener class-name="com.tmb.listeners.MethodInterceptor"></listener>
+        <listener class-name="com.tmb.listeners.AnnotationTransformer"></listener>
+    </listeners> 
+
+    <test verbose="2" preserve-order="true" name="tests" parallel="methods">
+        <classes>
+            <class name="com.tmb.tests.OrangeHrmTests">
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
